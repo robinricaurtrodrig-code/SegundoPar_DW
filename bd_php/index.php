@@ -13,5 +13,4 @@ if (isset($_SESSION["usuario"])) {
     header("Location: login.php");
     exit;
 }
-header("Location: login.php?msg=" . urlencode("Bienvenido, por favor inicie sesión"));
 ?>
